@@ -1,0 +1,12 @@
+<resources>
+    <!-- 国内深色模式机型：避免启动瞬间白底闪烁，状态栏图标随底色切换 -->
+    <style name="Theme.QiPage" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">#C09B62</item>
+        <item name="android:colorControlActivated">#C09B62</item>
+        <item name="android:colorBackgroundFloating">#16191B</item>
+        <item name="android:windowBackground">#16191B</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>
